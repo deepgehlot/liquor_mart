@@ -79,6 +79,14 @@
             margin-bottom: 5%;
         }
         
+        .img_store {
+            border-radius: 6%;
+        }
+        
+        .card_store {
+            border: 0;
+        }
+        
         .vc_row.vc_row-flex {
             justify-content: center;
         }
@@ -91,6 +99,14 @@
             }
             .store_img {
                 width: 60%;
+            }
+        }
+        
+        @media only screen and (min-width:1281px) {
+            .store_img {
+                width: 100%;
+                border-radius: 10%;
+                margin-bottom: 5%;
             }
         }
     </style>
@@ -157,10 +173,10 @@
         }
         
         .pic-ctn {
-            position: relative;
+            /* position: relative; */
             /* width: 100vw; */
             height: 300px;
-            margin-top: 15vh;
+            /* margin-top: 15vh; */
         }
         
         .pic-ctn>img {
@@ -378,7 +394,7 @@
                             <p>Plot number 9A 9/1 SI Marg,<br>
                                 Jawahar Lal Nehru Marg, near WTP,<br>
                                 Lal Bahadur Nagar, Jaipur, Rajasthan 302017</p>
-                            <p>+91 72820 72820</p>
+                            <p>+91 89638 66666</p>
                         </address>
                     </div>
                 </div>
@@ -397,7 +413,7 @@
                                 <a title="TLM Experience" href="./about-us.html" class="nav-link">TLM Experience</a>
                             </li>
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item">
-                                <a title="Services" href="#" class="nav-link">Services</a>
+                                <a title="Services" href="/services.html" class="nav-link">Services</a>
                             </li>
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item">
                                 <a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a>
@@ -431,7 +447,7 @@
                             <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a>
                         </li>
                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286 nav-item"><a title="TLS Experience" href="./about-us.html" class="nav-link">TLS Experience</a></li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Services" href="#" class="nav-link">Services</a></li>
+                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Services" href="/services.html" class="nav-link">Services</a></li>
                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a></li>
 
                         <!-- <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310 nav-item"><a title="Wine &amp; Whiskey Tasting" href="./tasting.html" class="nav-link">Wine &amp; Whiskey Tasting</a></li> -->
@@ -596,52 +612,118 @@
                                 </div>
                                 <div class="container">
                                     <div class="row d-flex justify-content-center">
-                                        <div class="col-md-4 left_col">
+                                        <div class="col-md-4 col-xl-3 left_col">
                                             <ul class="ul_left">
                                                 <li class="li_text activee" data-id="#col-1">
-                                                    Office 1
+                                                    Store 1
                                                 </li>
                                                 <li class="li_text" data-id="#col-2">
-                                                    Office 2
+                                                    Store 2
                                                 </li>
                                                 <li class="li_text" data-id="#col-3">
-                                                    Office 3
+                                                    Store 3
                                                 </li>
                                                 <li class="li_text" data-id="#col-4">
-                                                    Office 4
+                                                    Store 4
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-md-7 right_col" id="col-1">
-                                            <div class="row d-flex flex-column r_row" style="margin-left: 15%;">
-                                                <img src="./assets/themes/main/images/store/JLN.jpg" class="store_img">
+                                        <div class="col-md-7 col-xl-9 right_col" id="col-1">
+                                            <div class="row d-flex flex-column r_row" style="margin-left: 5%;">
+                                                <div class="card mb-3 card_store">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-6 col-xl-7">
+                                                            <img src="./assets/themes/main/images/store/JLN.jpg" alt="..." class="img-fluid img_store">
+                                                        </div>
+                                                        <div class="col-md-6 col-xl-5">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title" style="font-weight: bolder;">The Liquor Mart JLN Marg</h5>
+                                                                <p class="card-text">Plot number 9A 9/1 SI Marg, Jawahar Lal Nehru Marg, near WTP, Lal Bahadur Nagar, Jaipur, Rajasthan 302017</p>
+                                                                <a href="tel:89638 66666">
+                                                                    <p class="card-text">89638 66666</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- <img src="./assets/themes/main/images/store/JLN.jpg" class="store_img">
                                                 <p style="font-weight: bolder;">The Liquor Mart JLN Marg</p>
                                                 <p style="text-align: justify;">Plot number 9A 9/1 SI Marg, Jawahar Lal Nehru Marg, near WTP, Lal Bahadur Nagar, Jaipur, Rajasthan 302017</p>
-                                                <p>89638 66666</p>
+                                                <p>89638 66666</p> -->
                                             </div>
                                         </div>
-                                        <div class="col-md-7 right_col" style="display: none;" id="col-2">
-                                            <div class="row d-flex flex-column r_row" style="margin-left: 15%;">
-                                                <img src="./assets/themes/main/images/store/c_scheme.jpg" class="store_img">
+                                        <div class="col-md-7 col-xl-9 right_col" style="display: none;" id="col-2">
+                                            <div class="row d-flex flex-column r_row" style="margin-left: 5%;">
+                                                <div class="card mb-3 card_store">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-6 col-xl-7">
+                                                            <img src="./assets/themes/main/images/store/c_scheme.jpg" alt="..." class="img-fluid img_store">
+                                                        </div>
+                                                        <div class="col-md-6 col-xl-5">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title" style="font-weight: bolder;">The Liquor Mart C-Scheme</h5>
+                                                                <p class="card-text">K 7, Malviya Marg, Panch Batti, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302001</p>
+                                                                <a href="tel:89638 66666">
+                                                                    <p class="card-text">89468 00001</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- <img src="./assets/themes/main/images/store/c_scheme.jpg" class="store_img">
                                                 <p style="font-weight: bolder;">The Liquor Mart C-Scheme</p>
                                                 <p style="text-align: justify;">K 7, Malviya Marg, Panch Batti, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302001</p>
-                                                <p>89468 00001</p>
+                                                <p>89468 00001</p> -->
                                             </div>
                                         </div>
-                                        <div class="col-md-7 right_col" style="display: none;" id="col-3">
-                                            <div class="row d-flex flex-column r_row" style="margin-left: 15%;">
-                                                <img src="./assets/themes/main/images/store/22godam.jpeg" class="store_img">
+                                        <div class="col-md-7 col-xl-9 right_col" style="display: none;" id="col-3">
+                                            <div class="row d-flex flex-column r_row" style="margin-left: 5%;">
+                                                <div class="card mb-3 card_store">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-6 col-xl-7">
+                                                            <img src="./assets/themes/main/images/store/22godam.jpeg" alt="..." class="img-fluid img_store">
+                                                        </div>
+                                                        <div class="col-md-6 col-xl-5">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title" style="font-weight: bolder;">The Liquor Mart 22 Godam</h5>
+                                                                <p class="card-text">The Liquor mart, 22 Godam Cir, Jyothi Nagar, Lalkothi, Jaipur, Rajasthan 302005</p>
+                                                                <a href="tel:89638 66666">
+                                                                    <p class="card-text">89638 66666</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- <img src="./assets/themes/main/images/store/22godam.jpeg" class="store_img">
                                                 <p style="font-weight: bolder;">The Liquor Mart 22 Godam</p>
                                                 <p style="text-align: justify;">WQ2R+VXQ The Liquor mart, 22 Godam Cir, Jyothi Nagar, Lalkothi, Jaipur, Rajasthan 302005</p>
-                                                <p>89638 66666</p>
+                                                <p>89638 66666</p> -->
                                             </div>
                                         </div>
-                                        <div class="col-md-7 right_col" style="display: none;" id="col-4">
-                                            <div class="row d-flex flex-column r_row" style="margin-left: 15%;">
-                                                <img src="./assets/themes/main/images/store/22godam.jpeg" class="store_img">
+                                        <div class="col-md-7 col-xl-9 right_col" style="display: none;" id="col-4">
+                                            <div class="row d-flex flex-column r_row" style="margin-left: 5%;">
+                                                <div class="card mb-3 card_store">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-6 col-xl-7">
+                                                            <img src="./assets/themes/main/images/store/c_scheme.jpg" alt="..." class="img-fluid img_store">
+                                                        </div>
+                                                        <div class="col-md-6 col-xl-5">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title" style="font-weight: bolder;">The Liquor Mart Udaipur</h5>
+                                                                <p class="card-text"></p>
+                                                                <a href="tel:89638 66666">
+                                                                    <p class="card-text">89638 66666</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- <img src="./assets/themes/main/images/store/22godam.jpeg" class="store_img">
                                                 <p style="font-weight: bolder;">The Liquor Mart Udaipur</p>
                                                 <p style="text-align: justify;">Address</p>
-                                                <p>89638 66666</p>
+                                                <p>89638 66666</p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -659,7 +741,7 @@
                         <div class="vc_column-inner vc_custom_1593812142412">
                             <div class="lmb_wrapper">
                                 <div class="section-title" style="display: flex; flex-direction: column; align-items: center; width: 100vw;">
-                                    <h2 style="margin-left: auto; margin-right: auto;">The TLM Experience</h2>
+                                    <h2 style="margin-left: auto; margin-right: auto; color:#c58f59">The TLM Experience</h2>
                                     <img src="assets/themes/main/images/title-shape.png" alt="The TLM Experience" class="title-shape">
                                 </div>
 
@@ -682,7 +764,7 @@
         </section>
         <section class="content-section">
             <div class="container">
-                <h1 style="text-align: center;">What's New In the Store ?</h1>
+                <h1 style="text-align: center; margin-bottom: 10vh; color:#c58f59">What's New In the Store ?</h1>
 
                 <div class="vc_row lmb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
 
