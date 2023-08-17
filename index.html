@@ -37,6 +37,63 @@
             height: 200;
         }
     </style>
+
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        
+        .li_text {
+            padding: 10%;
+            text-align: center;
+        }
+        
+        li.activee {
+            border-right: 3px solid #c58f59;
+        }
+        
+        .right_col {
+            padding: 2%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .left_col {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            border-right: 2px solid rgba(0, 0, 0, 0.276)
+        }
+        
+        .ul_left {
+            list-style-type: none;
+            width: 100%;
+        }
+        
+        .store_img {
+            width: 40%;
+            border-radius: 10%;
+            margin-bottom: 5%;
+        }
+        
+        .vc_row.vc_row-flex {
+            justify-content: center;
+        }
+        
+        @media only screen and (max-width: 767px) {
+            .r_row {
+                padding: 0;
+                margin: 0 !important;
+                align-items: center;
+            }
+            .store_img {
+                width: 60%;
+            }
+        }
+    </style>
     <link rel='stylesheet' id='qlwapp-css' href='assets/plugins/lm-whatsapp-chat/build/frontend/css/style311f.css?ver=6.2.7' media='all' />
     <link rel='stylesheet' id='js_composer_front-css' href='assets/plugins/js_composer/assets/css/js_composer.min91f3.css?ver=6.4.0' media='all' />
 
@@ -72,8 +129,8 @@
         }
         
         .pic-ctn {
-            width: 100vw;
             height: 200px;
+            margin-left: 12vw;
         }
         
         @keyframes display {
@@ -101,7 +158,7 @@
         
         .pic-ctn {
             position: relative;
-            width: 100vw;
+            /* width: 100vw; */
             height: 300px;
             margin-top: 15vh;
         }
@@ -334,20 +391,25 @@
                     <div class="menu-main-menu-container">
                         <ul id="menu-main-menu-1" class="menu-horizontal">
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-301 current_page_item active menu-item-19 nav-item">
-                                <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a></li>
+                                <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a>
+                            </li>
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286 nav-item">
                                 <a title="TLM Experience" href="./about-us.html" class="nav-link">TLM Experience</a>
                             </li>
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item">
-                                <a title="Services" href="#" class="nav-link">Services</a></li>
+                                <a title="Services" href="#" class="nav-link">Services</a>
+                            </li>
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item">
-                                <a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a></li>
+                                <a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a>
+                            </li>
 
                             <!-- <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310 nav-item"><a title="Wine &amp; Whiskey Tasting" href="./tasting.html" class="nav-link">Wine &amp; Whiskey Tasting</a></li> -->
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315 nav-item">
-                                <a title="In The News" href="./news.html" class="nav-link">In The News</a></li>
+                                <a title="In The News" href="./news.html" class="nav-link">In The News</a>
+                            </li>
                             <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163 nav-item">
-                                <a title="Contact Us" href="./contact.html" class="nav-link">Contact Us</a></li>
+                                <a title="Contact Us" href="./contact.html" class="nav-link">Contact Us</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -366,7 +428,8 @@
                 <div class="menu-main-menu-container">
                     <ul id="menu-main-menu-1" class="menu-horizontal">
                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-301 current_page_item active menu-item-19 nav-item">
-                            <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a></li>
+                            <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a>
+                        </li>
                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286 nav-item"><a title="TLS Experience" href="./about-us.html" class="nav-link">TLS Experience</a></li>
                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Services" href="#" class="nav-link">Services</a></li>
                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a></li>
@@ -505,7 +568,7 @@
                                 <div class="lmb_single_image lmb_content_element vc_align_center">
 
                                     <figure class="lmb_wrapper vc_figure">
-                                        <div class="vc_single_image-wrapper vc_box_outline  vc_box_border_black"><img width="2560" height="1707" src="assets/uploads/2023/01/DSC01071-scaled.jpg" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="https://theliquorstore.in/assets/uploads/2023/01/DSC01071-scaled.jpg 2560w, https://theliquorstore.in/assets/uploads/2023/01/DSC01071-300x200.jpg 300w, https://theliquorstore.in/assets/uploads/2023/01/DSC01071-1024x683.jpg 1024w, https://theliquorstore.in/assets/uploads/2023/01/DSC01071-768x512.jpg 768w, https://theliquorstore.in/assets/uploads/2023/01/DSC01071-1536x1024.jpg 1536w, https://theliquorstore.in/assets/uploads/2023/01/DSC01071-2048x1365.jpg 2048w"
+                                        <div class="vc_single_image-wrapper vc_box_outline  vc_box_border_black"><img width="2560" height="1707" src="assets/uploads/2023/01/DSC01071-scaled.jpg" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="assets/uploads/2023/01/DSC01071-scaled.jpg 2560w, assets/uploads/2023/01/DSC01071-scaled.jpg 300w, assets/uploads/2023/01/DSC01071-scaled.jpg 1024w, assets/uploads/2023/01/DSC01071-scaled.jpg 768w, assets/uploads/2023/01/DSC01071-scaled.jpg 1536w, assets/uploads/2023/01/DSC01071-scaled.jpg 2048w"
                                                 sizes="(max-width: 2560px) 100vw, 2560px" /></div>
                                     </figure>
                                 </div>
@@ -524,7 +587,7 @@
                                 <div class="section-title  ">
                                     <h2>
                                         </p>
-                                        <h6>Featured On</h6>
+                                        <h6>Our Stores</h6>
                                         <p>
                                     </h2>
                                     <img src="assets/themes/main/images/title-shape.png" alt="&lt;/p&gt;
@@ -532,77 +595,53 @@
 &lt;p&gt;" class="title-shape">
                                 </div>
                                 <div class="container">
-                                    <div class="vc_row lmb_row vc_inner vc_row-fluid">
-                                        <div class="lmb_column vc_column_container vc_col-sm-2 vc_col-xs-6">
-                                            <div class="vc_column-inner">
-                                                <div class="lmb_wrapper">
-                                                    <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                        <figure class="lmb_wrapper vc_figure">
-                                                            <a href="https://zeezest.com/food/the-liquor-store-opens-in-belapur-mumbai-i-zee-zest-1901" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img width="250" height="100" src="assets/uploads/2023/01/Zestlogo-website-250x100-1.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" /></a>
-                                                        </figure>
-                                                    </div>
-                                                </div>
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-md-4 left_col">
+                                            <ul class="ul_left">
+                                                <li class="li_text activee" data-id="#col-1">
+                                                    Office 1
+                                                </li>
+                                                <li class="li_text" data-id="#col-2">
+                                                    Office 2
+                                                </li>
+                                                <li class="li_text" data-id="#col-3">
+                                                    Office 3
+                                                </li>
+                                                <li class="li_text" data-id="#col-4">
+                                                    Office 4
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-7 right_col" id="col-1">
+                                            <div class="row d-flex flex-column r_row" style="margin-left: 15%;">
+                                                <img src="./assets/themes/main/images/store/JLN.jpg" class="store_img">
+                                                <p style="font-weight: bolder;">The Liquor Mart JLN Marg</p>
+                                                <p style="text-align: justify;">Plot number 9A 9/1 SI Marg, Jawahar Lal Nehru Marg, near WTP, Lal Bahadur Nagar, Jaipur, Rajasthan 302017</p>
+                                                <p>89638 66666</p>
                                             </div>
                                         </div>
-                                        <div class="lmb_column vc_column_container vc_col-sm-2 vc_col-xs-6">
-                                            <div class="vc_column-inner">
-                                                <div class="lmb_wrapper">
-                                                    <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                        <figure class="lmb_wrapper vc_figure">
-                                                            <a href="https://www.gqindia.com/live-well/content/5-whisky-cocktail-recipes-to-make-the-most-of-diwali-2022-parties-according-to-bartenders" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img width="250" height="100" src="assets/uploads/2023/01/1229-GQ.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" /></a>
-                                                        </figure>
-                                                    </div>
-                                                </div>
+                                        <div class="col-md-7 right_col" style="display: none;" id="col-2">
+                                            <div class="row d-flex flex-column r_row" style="margin-left: 15%;">
+                                                <img src="./assets/themes/main/images/store/c_scheme.jpg" class="store_img">
+                                                <p style="font-weight: bolder;">The Liquor Mart C-Scheme</p>
+                                                <p style="text-align: justify;">K 7, Malviya Marg, Panch Batti, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302001</p>
+                                                <p>89468 00001</p>
                                             </div>
                                         </div>
-                                        <div class="lmb_column vc_column_container vc_col-sm-2 vc_col-xs-6">
-                                            <div class="vc_column-inner">
-                                                <div class="lmb_wrapper">
-                                                    <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                        <figure class="lmb_wrapper vc_figure">
-                                                            <a href="http://bwmarketingworld.businessworld.in/article/Entrepreneurs-Uncover-Their-Father-s-Most-Valuable-Business-Wisdom/20-06-2022-433254/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img width="250" height="100" src="assets/uploads/2023/01/Bw-logo.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" /></a>
-                                                        </figure>
-                                                    </div>
-                                                </div>
+                                        <div class="col-md-7 right_col" style="display: none;" id="col-3">
+                                            <div class="row d-flex flex-column r_row" style="margin-left: 15%;">
+                                                <img src="./assets/themes/main/images/store/22godam.jpeg" class="store_img">
+                                                <p style="font-weight: bolder;">The Liquor Mart 22 Godam</p>
+                                                <p style="text-align: justify;">WQ2R+VXQ The Liquor mart, 22 Godam Cir, Jyothi Nagar, Lalkothi, Jaipur, Rajasthan 302005</p>
+                                                <p>89638 66666</p>
                                             </div>
                                         </div>
-                                        <div class="lmb_column vc_column_container vc_col-sm-2 vc_col-xs-6">
-                                            <div class="vc_column-inner">
-                                                <div class="lmb_wrapper">
-                                                    <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                        <figure class="lmb_wrapper vc_figure">
-                                                            <a href="https://www.mid-day.com/lifestyle/culture/article/world-gin-day-a-glimpse-of-indias diverse-and evolving gin-culture-23231114" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img width="250" height="100" src="assets/uploads/2023/01/midday.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" /></a>
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="lmb_column vc_column_container vc_col-sm-2 vc_col-xs-6">
-                                            <div class="vc_column-inner">
-                                                <div class="lmb_wrapper">
-                                                    <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                        <figure class="lmb_wrapper vc_figure">
-                                                            <a href="https://www.outlookindia.com/travel/gift-your-dad-the-perfect-bottle-this-father-s-day-news-203133" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img width="250" height="100" src="assets/uploads/2023/01/outlook.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" /></a>
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="lmb_column vc_column_container vc_col-sm-2 vc_col-xs-6">
-                                            <div class="vc_column-inner">
-                                                <div class="lmb_wrapper">
-                                                    <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                        <figure class="lmb_wrapper vc_figure">
-                                                            <a href="https://www.financialexpress.com/lifestyle/augmented-reality-restaurant-and-bar-menus-are-expanding-know-everything-about-the-concept/2895076/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="250" height="100" src="assets/uploads/2023/01/financial-express.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" /></a>
-                                                        </figure>
-                                                    </div>
-                                                </div>
+                                        <div class="col-md-7 right_col" style="display: none;" id="col-4">
+                                            <div class="row d-flex flex-column r_row" style="margin-left: 15%;">
+                                                <img src="./assets/themes/main/images/store/22godam.jpeg" class="store_img">
+                                                <p style="font-weight: bolder;">The Liquor Mart Udaipur</p>
+                                                <p style="text-align: justify;">Address</p>
+                                                <p>89638 66666</p>
                                             </div>
                                         </div>
                                     </div>
@@ -629,7 +668,8 @@
 
                                         <div class="lmb_video_wrapper">
                                             <video class="main_video" autoplay="autoplay" width="100%" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto">
-                                                <source src="./assets/themes/main/images/LM 1 new .webm" type="video/webm">
+                                                <source src="./assets/themes/main/images/LM 1 new .webm"
+                                                    type="video/webm">
                                             </video>
                                         </div>
                                     </div>
@@ -643,78 +683,25 @@
         <section class="content-section">
             <div class="container">
                 <h1 style="text-align: center;">What's New In the Store ?</h1>
-                <div class="pic-ctn">
-                    <img src="./assets/themes/main/images/bottle1.png" alt="" class="pic">
-                    <img src="./assets/themes/main/images/bottle2.png" alt="" class="pic">
-                    <img src="./assets/themes/main/images/bottle3.png" alt="" class="pic">
-                    <img src="./assets/themes/main/images/bottle1.png" alt="" class="pic">
-                    <img src="./assets/themes/main/images/bottle5.png" alt="" class="pic">
-                </div>
-                <!-- <div class="vc_row lmb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
-                    <div class="lmb_column vc_column_container vc_col-sm-3 vc_col-md-4">
-                        <div class="vc_column-inner">
-                            <div class="lmb_wrapper">
-                                <div class="side-content ">
 
-                                    <h3>
-                                        </p>
+                <div class="vc_row lmb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
 
-                                        <p>
-                                    </h3>
-                                    <p>We're excited to announce the arrival of several new and exciting products to our shelves. Don't forget to ask our staff for recommendations and join our loyalty program for exclusive discounts. Cheers!</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
                     <div class="lmb_column vc_column_container vc_col-sm-8">
                         <div class="vc_column-inner">
                             <div class="lmb_wrapper">
                                 <div class="vc_row lmb_row vc_inner vc_row-fluid">
-                                    <div class="lmb_column vc_column_container vc_col-sm-4">
-                                        <div class="vc_column-inner">
-                                            <div class="lmb_wrapper">
-                                                <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                    <figure class="lmb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="616" height="462" src="assets/uploads/2023/01/e74e4d60430d27452f47f279859c921a.jpg" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="https://theliquorstore.in/assets/uploads/2023/01/e74e4d60430d27452f47f279859c921a.jpg 616w, https://theliquorstore.in/assets/uploads/2023/01/e74e4d60430d27452f47f279859c921a-300x225.jpg 300w"
-                                                                sizes="(max-width: 616px) 100vw, 616px" /></div>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="lmb_column vc_column_container vc_col-sm-4">
-                                        <div class="vc_column-inner">
-                                            <div class="lmb_wrapper">
-                                                <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                    <figure class="lmb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="616" height="462" src="assets/uploads/2023/01/Untitled-design-113.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="https://theliquorstore.in/assets/uploads/2023/01/Untitled-design-113.png 616w, https://theliquorstore.in/assets/uploads/2023/01/Untitled-design-113-300x225.png 300w"
-                                                                sizes="(max-width: 616px) 100vw, 616px" /></div>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="lmb_column vc_column_container vc_col-sm-4">
-                                        <div class="vc_column-inner">
-                                            <div class="lmb_wrapper">
-                                                <div class="lmb_single_image lmb_content_element vc_align_left">
-
-                                                    <figure class="lmb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="616" height="462" src="assets/uploads/2023/01/Untitled-design-114.png" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="https://theliquorstore.in/assets/uploads/2023/01/Untitled-design-114.png 616w, https://theliquorstore.in/assets/uploads/2023/01/Untitled-design-114-300x225.png 300w"
-                                                                sizes="(max-width: 616px) 100vw, 616px" /></div>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="pic-ctn">
+                                        <img src="./assets/themes/main/images/bottle1.png" alt="" class="pic">
+                                        <img src="./assets/themes/main/images/bottle2.png" alt="" class="pic">
+                                        <img src="./assets/themes/main/images/bottle3.png" alt="" class="pic">
+                                        <img src="./assets/themes/main/images/bottle1.png" alt="" class="pic">
+                                        <img src="./assets/themes/main/images/bottle5.png" alt="" class="pic">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </section>
         <section data-stellar-background-ratio=1.1 class="content-section bg-image" style="background: url(assets/uploads/2023/01/DSC01166-scaled-1.jpg) center no-repeat; ">
@@ -802,9 +789,36 @@
                             <a href="index.html"><img src="assets/uploads/2023/01/TLS-Logo-2-1.png" srcset="assets/uploads/2023/01/TLS-Logo-2-1.png" alt="The Liquor Mart"></a>
                         </div>
                         <div class="mt-4">
-                            <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></span>
-                            <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"><style>svg{fill:#ffffff}</style><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a></span>
-                            <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"><style>svg{fill:#ffffff}</style><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg></a></span>
+                            <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
+                                        viewBox="0 0 448 512">
+                                        <style>
+                                            svg {
+                                                fill: #ffffff
+                                            }
+                                        </style>
+                                        <path
+                                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                    </svg></a></span>
+                            <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
+                                        viewBox="0 0 512 512">
+                                        <style>
+                                            svg {
+                                                fill: #ffffff
+                                            }
+                                        </style>
+                                        <path
+                                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                                    </svg></a></span>
+                            <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
+                                        viewBox="0 0 512 512">
+                                        <style>
+                                            svg {
+                                                fill: #ffffff
+                                            }
+                                        </style>
+                                        <path
+                                            d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                                    </svg></a></span>
                         </div>
                     </div>
                     <div class="col-md-2">
@@ -889,6 +903,7 @@
             "cached": "1"
         };
     </script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src='assets/plugins/contact-form-7/includes/js/index9f31.js?ver=5.7.2' id='contact-form-7-js'></script>
     <script src='assets/themes/main/js/bootstrap.min6fb3.js?ver=6.1.3' id='bootstrap-js'></script>
     <script src='assets/themes/main/js/fancybox.min6fb3.js?ver=6.1.3' id='fancybox-js'></script>
@@ -899,11 +914,30 @@
     <script src='assets/themes/main/js/datepicker.min6fb3.js?ver=6.1.3' id='datepicker-js'></script>
     <script src='assets/themes/main/js/wow.min6fb3.js?ver=6.1.3' id='wow-js'></script>
     <script src='assets/themes/main/js/swiper.min6fb3.js?ver=6.1.3' id='swiper-js'></script>
-    <script src="assets/themes/main/js/c_script.js">
-    </script>
+    <!-- <script src="assets/themes/main/js/c_scrip t.js"></script> -->
     <script src='assets/themes/main/js/scripts6fb3.js?ver=6.1.3' id='main-scripts-js'></script>
     <script src='assets/plugins/lm-whatsapp-chat/build/frontend/js/indexfff7.js?ver=5cf11c421167aee95e6c' id='qlwapp-js'></script>
     <script src='assets/plugins/js_composer/assets/js/dist/js_composer_front.min91f3.js?ver=6.4.0' id='lmb_composer_front_js-js'></script>
+    <script>
+        const left_col = $('.li_text'),
+            right_col = $('.right_col')
+        left_col.click(function() {
+            const elem = $(this)
+            left_col.removeClass('activee')
+            right_col.hide()
+            elem.addClass('activee')
+            $(elem.data('id')).show()
+        })
+        let index = 0
+        setInterval(() => {
+            index++
+            if (index >= left_col.length) {
+                index = 0
+            }
+            $(left_col[index]).trigger('click')
+
+        }, 10000)
+    </script>
 </body>
 
 </html>
