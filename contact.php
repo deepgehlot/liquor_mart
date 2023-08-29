@@ -1,3 +1,38 @@
+<?php
+
+
+
+if( isset($_POST['submit'])){
+    require "sendmail.php";
+    $to = "newgehlot2000@gmail.com"; // Your email address
+	$name = $_POST['fname'];
+	$from = "ps005196@gmail.com";
+	$phone = $_POST['contact'];
+	$message = $_POST['comment'];
+    $email = $_POST['email'];
+	$subject = "Contact Form Details";
+	$headers = "From:" . $from;
+    $send_text = "
+    name: $name<br>
+    phone: $phone<br>
+    Email: $email<br>
+    Comment: $message<br>
+    ";
+	$result = send_mail($to,$name,$subject,$send_text);
+
+	if ($result) {
+		echo '<script type="text/javascript">alert("Your Message was sent Successfully!");</script>';
+		echo '<script type="text/javascript">window.location.href = window.location.href;</script>';
+
+	}else{
+		echo '<script type="text/javascript">alert("Sorry! Message was not sent, Try again Later.");</script>';
+		echo '<script type="text/javascript">window.location.href = window.location.href;</script>';
+	}
+}
+?>
+
+
+
 <!doctype html>
 <html lang="en-US">
 
@@ -516,42 +551,44 @@
                             </div>
                         </div>
                     </div>
-                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
-                        <div class="vc_column-inner">
-                            <div class="contact-form">
-                                <div class="form-group">
-                                    <label class="control-label col-sm-3" for="fname">Name:</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="fname" placeholder="Enter Your Name" name="fname">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label col-sm-3" for="fname">Contact No:</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="fname" placeholder="Enter Your Contact Number" name="contact">
-                                    </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <label class="control-label col-sm-2" for="email">Email:</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label col-sm-2" for="comment">Comment:</label>
-                                    <div class="col-sm-10">
-                                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-offset-2 col-sm-10">
-                                        <button type="submit" class="btn btn-default">Submit</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+                                            <div class="vc_column-inner">
+                                                <form class="contact-form" method='post'>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-sm-3" for="fname">Name:</label>
+                                                        <div class="col-sm-10">
+                                                            <input type="text" class="form-control" id="fname" placeholder="Enter Your Name" name="fname">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-sm-3" for="fname">Contact No:</label>
+                                                        <div class="col-sm-10">
+                                                            <input type="number" class="form-control"  placeholder="Enter Your Contact Number" name="contact">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label class="control-label col-sm-2" for="email">Email:</label>
+                                                        <div class="col-sm-10">
+                                                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-sm-2" for="comment">Comment:</label>
+                                                        <div class="col-sm-10">
+                                                            <textarea class="form-control" rows="5" name='comment' id="comment"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="col-sm-offset-2 col-sm-10">
+                                                            <button type="submit" name='submit' class="btn btn-default">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
                 </div>
             </div>
         </section>
