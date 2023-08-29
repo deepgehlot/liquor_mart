@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <title>About Us &#8211; The Liquor Mart</title>
+    <title>Contact Us &#8211; The Liquor Mart</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="The Liquor Mart &raquo; Feed" href="./feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="The Liquor Mart &raquo; Comments Feed" href="./comments/feed/index.html" />
@@ -18,6 +18,15 @@
     <style>
         .testimonial {
             padding-top: 10% !important;
+        }
+        
+        .contact-form {
+            padding: 2rem !important;
+            background: none !important;
+        }
+        
+        .control-label {
+            color: black;
         }
     </style>
     <style id='global-styles-inline-css'>
@@ -390,7 +399,7 @@
     <link rel="alternate" type="application/json" href="./json/wp/v2/pages/217.json" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 6.1.3" />
+
     <link rel="canonical" href="index.html" />
 
 
@@ -426,172 +435,23 @@
     </style><noscript><style> .lmb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
 
 <body class="page-template page-template-page-builder page-template-page-builder-php page page-id-160 no-transition wpb-js-composer js-comp-ver-6.4.0 vc_responsive">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-            <defs>
-                <filter id="wp-duotone-blue-red">
-                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                    <feComponentTransfer color-interpolation-filters="sRGB">
-                        <feFuncR type="table" tableValues="0 1" />
-                        <feFuncG type="table" tableValues="0 0.27843137254902" />
-                        <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
-                        <feFuncA type="table" tableValues="1 1" />
-                    </feComponentTransfer>
-                    <feComposite in2="SourceGraphic" operator="in" />
-                </filter>
-            </defs>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-                <defs>
-                    <filter id="wp-duotone-magenta-yellow">
-                        <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                        <feComponentTransfer color-interpolation-filters="sRGB">
-                            <feFuncR type="table" tableValues="0.78039215686275 1" />
-                            <feFuncG type="table" tableValues="0 0.94901960784314" />
-                            <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
-                            <feFuncA type="table" tableValues="1 1" />
-                        </feComponentTransfer>
-                        <feComposite in2="SourceGraphic" operator="in" />
-                    </filter>
-                </defs>
-                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-                    <defs>
-                        <filter id="wp-duotone-blue-orange">
-                            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                            <feComponentTransfer color-interpolation-filters="sRGB">
-                                <feFuncR type="table" tableValues="0.098039215686275 1" />
-                                <feFuncG type="table" tableValues="0 0.66274509803922" />
-                                <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
-                                <feFuncA type="table" tableValues="1 1" />
-                            </feComponentTransfer>
-                            <feComposite in2="SourceGraphic" operator="in" />
-                        </filter>
-                    </defs>
-                    </svg>
-    <div class="search-box">
-        <div class="inner">
-            <form action="">
-                <input type="search" placeholder="Type here to search" value="" name="s" id="s">
-                <input type="submit" value="SEARCH">
-            </form>
-
-        </div>
-    </div>
-    <aside class="side-widget">
-        <div class="inner">
-            <div class="logo">
-                <a href="./index.html"><img src="./assets/uploads/2023/01/TLS-Logo-2-1.png" srcset="./assets/uploads/2023/01/TLS-Logo-2-1.png" alt="The Liquor Store"></a>
-            </div>
-
-            <div class="hide-mobile">
-
-                <div id="custom_html-1" class="widget_text widget widget_custom_html">
-                    <div class="textwidget custom-html-widget">
-                        <p>We have been in the industry for over 30 years, serving every type of customer there is in the market. Our strong ambition is to provide the customer what they want and fulfil their needs in alcohol when it comes to their choice
-                            of selections. Having a wide array of alcohol labels available in the market, the customer gets a reason to try something different just by looking at the label. </p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.718918569735!2d75.80018297618716!3d26.848891062828933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5eb22c319a7%3A0x9b20d9f00e3536c7!2sThe%20Liquor%20Mart%20JLN%20Marg!5e0!3m2!1sen!2sin!4v1691996668470!5m2!1sen!2sin"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <h6 class="widget-title">ADDRESS</h6>
-                        <address class="address">
-      <p>Plot number 9A 9/1 SI Marg,<br>
-        Jawahar Lal Nehru Marg, near WTP,<br>
-        Lal Bahadur Nagar, Jaipur, Rajasthan 302017</p>
-      <p>+91 89638 66666</p>
-      </address>
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- end hide-mobile -->
-            <div class="show-mobile">
-                <div class="site-menu">
-                    <div class="menu-main-menu-container">
-                        <ul id="menu-main-menu-1" class="menu-horizontal">
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-301 current_page_item active menu-item-19 nav-item">
-                                <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286 nav-item">
-                                <a title="TLM Experience" href="./about-us.html" class="nav-link">TLM Experience</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item">
-                                <a title="Services" href="/services.html" class="nav-link">Services</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item">
-                                <a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a>
-                            </li>
-
-                            <!-- <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310 nav-item"><a title="Wine &amp; Whiskey Tasting" href="./tasting.html" class="nav-link">Wine &amp; Whiskey Tasting</a></li> -->
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315 nav-item">
-                                <a title="In The News" href="./news.html" class="nav-link">In The News</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163 nav-item">
-                                <a title="Contact Us" href="./contact.html" class="nav-link">Contact Us</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-            <!-- end show-mobile -->
-            <small>Copyright©️VK RETAIL AND HOSPITALITIES LLP. All rights reserved</small> </div>
-        <!-- end inner -->
-    </aside>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="../index.html"><img src="./assets/uploads/2023/01/TLS-Logo-2-1.png" srcset="./assets/uploads/2023/01/TLS-Logo-2-1.png" alt="The Liquor Store"></a>
-            </div>
-            <div class="site-menu">
-                <div class="menu-main-menu-container">
-                    <ul id="menu-main-menu-1" class="menu-horizontal">
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-301 current_page_item active menu-item-19 nav-item">
-                            <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a>
-                        </li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286 nav-item"><a title="TLS Experience" href="./about-us.html" class="nav-link">TLS Experience</a></li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Services" href="/services.html" class="nav-link">Services</a></li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a></li>
-
-                        <!-- <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310 nav-item"><a title="Wine &amp; Whiskey Tasting" href="./tasting.html" class="nav-link">Wine &amp; Whiskey Tasting</a></li> -->
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315 nav-item"><a title="In The News" href="./news.html" class="nav-link">In The News</a></li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163 nav-item"><a title="Contact Us" href="./contact.html" class="nav-link">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="hamburger">
-                <div id="hamburger"> <span></span> <span></span> <span></span> </div>
-                <div id="cross"> <span></span> <span></span> </div>
-            </div>
-        </div>
-    </nav>
+    
+    
+    <?php 
+    require 'navbar.php'
+    ?>
     <header class="page-header" style="background-image: url(./assets/uploads/2023/01/IMGL28428890-copy-scaled.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="inner">
-
                         <h1>Contact Us</h1>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    
     <!-- end navbar -->
     <main>
         <section class="content-section">
@@ -607,7 +467,7 @@
 
                                     <h6>Address</h6>
                                     <p>Plot number 9A 9/1 SI Marg,<br> Jawahar Lal Nehru Marg, near WTP,<br> Lal Bahadur Nagar, Jaipur, Rajasthan 302017</p>
-                                    <p>+91 89638 66666</p>
+                                    <!-- <p>+91 89638 66666</p> -->
                                 </div>
                             </div>
                         </div>
@@ -629,7 +489,6 @@
                     <div class="wpb_column vc_column_container vc_col-sm-4">
                         <div class="vc_column-inner">
                             <div class="wpb_wrapper">
-
 
                                 <div class="contact-box ">
                                     <figure> <img src="./assets/uploads/2020/07/icon-contact01.png" alt="icon-contact01"> </figure>
@@ -659,12 +518,81 @@
                     </div>
                     <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
                         <div class="vc_column-inner">
+                            <div class="contact-form">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="fname">Name:</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="fname" placeholder="Enter Your Name" name="fname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="fname">Contact No:</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="fname" placeholder="Enter Your Contact Number" name="contact">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2" for="email">Email:</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2" for="comment">Comment:</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end wrap-page -->
+        <section class="content-section">
+            <div class="container">
+                <div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
+                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
+                        <div class="vc_column-inner">
+                            <h5 style="text-align: center;">The Liquor Mart JLN Marg
+                            </h5>
                             <div class="wpb_wrapper">
-                                <div class="google-maps ">
+                                <div class="google-maps" style="height: 50vh;">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.718918569735!2d75.80018297618716!3d26.848891062828933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5eb22c319a7%3A0x9b20d9f00e3536c7!2sThe%20Liquor%20Mart%20JLN%20Marg!5e0!3m2!1sen!2sin!4v1691996668470!5m2!1sen!2sin"
+                                        width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
+                        <div class="vc_column-inner">
+                            <h5 style="text-align: center;">The Liquor Mart Mansarovar
+                            </h5>
+                            <div class="wpb_wrapper">
+                                <div class="google-maps" style="height: 50vh;">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56928.61883808375!2d75.75123795987562!3d26.90226758770596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5d25d26a875%3A0x87f64aafa47226a9!2sThe%20Liquor%20mart%20Mansarovar!5e0!3m2!1sen!2sin!4v1692859003765!5m2!1sen!2sin"
+                                        width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
 
-                                    <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.718918569735!2d75.80018297618716!3d26.848891062828933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5eb22c319a7%3A0x9b20d9f00e3536c7!2sThe%20Liquor%20Mart%20JLN%20Marg!5e0!3m2!1sen!2sin!4v1691996668470!5m2!1sen!2sin"
-                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
+                        <div class="vc_column-inner">
+                            <h5 style="text-align: center;">The Liquor Mart 22 Godam
+                            </h5>
+                            <div class="wpb_wrapper">
+                                <div class="google-maps" style="height: 50vh;">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.0410507824286!2d75.78986257618833!3d26.902192260541177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db51829ac4fd7%3A0x6de7fc5016c5e76b!2sThe%20liquor%20Mart%2022%20Godam!5e0!3m2!1sen!2sin!4v1692858939013!5m2!1sen!2sin"
+                                        width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
 
                             </div>
@@ -673,66 +601,11 @@
                 </div>
             </div>
         </section>
-        <!-- end wrap-page -->
     </main>
 
-    <footer class="footer" style="background-color: #0b0b0b">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-bottom">
-                        <span>Copyright©️VK RETAIL AND HOSPITALITIES LLP. All rights reserved</span>
-                        <span>Site created by <a href=_https_/ernstaa.html>Ernstaa</a></span>
-                    </div>
-                    <!-- end footer-bottom -->
-                </div>
-                <!-- end col-12 -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </footer>
-
-    <div id="qlwapp" class="qlwapp-free qlwapp-button qlwapp-bottom-right qlwapp-all qlwapp-rounded">
-        <div class="qlwapp-container">
-
-            <a class="qlwapp-toggle" data-action="open" data-phone="917282072820" data-message="Hello!! I would Like to Place an order Below are the Details" href="javascript:void(0);" target="_blank">
-                <i class="qlwapp-icon qlwapp-whatsapp-icon"></i>
-                <i class="qlwapp-close" data-action="close">&times;</i>
-                <span class="qlwapp-text">Get It Delivered !! Place Order</span>
-            </a>
-        </div>
-    </div>
-    <script src='./assets/plugins/contact-form-7/includes/swv/js/index9f31.js?ver=5.7.2' id='swv-js'></script>
-    <script id='contact-form-7-js-extra'>
-        var wpcf7 = {
-            "api": {
-                "root": "https:\/\/theliquorstore.in\/wp-json\/",
-                "namespace": "contact-form-7\/v1"
-            },
-            "cached": "1"
-        };
-    </script>
-    <script src='./assets/plugins/contact-form-7/includes/js/index9f31.js?ver=5.7.2' id='contact-form-7-js'></script>
-    <script src='./assets/themes/main/js/bootstrap.min6fb3.js?ver=6.1.3' id='bootstrap-js'></script>
-    <script src='./assets/themes/main/js/fancybox.min6fb3.js?ver=6.1.3' id='fancybox-js'></script>
-    <script src='./assets/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min91f3.js?ver=6.4.0' id='isotope-js'></script>
-    <script src='./assets/themes/main/js/odometer.min6fb3.js?ver=6.1.3' id='odometer-js'></script>
-    <script src='./includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
-    <script src='./assets/themes/main/js/jquery.stellar6fb3.js?ver=6.1.3' id='stellar-js'></script>
-    <script src='./assets/themes/main/js/datepicker.min6fb3.js?ver=6.1.3' id='datepicker-js'></script>
-    <script src='./assets/themes/main/js/wow.min6fb3.js?ver=6.1.3' id='wow-js'></script>
-    <script src='./assets/themes/main/js/swiper.min6fb3.js?ver=6.1.3' id='swiper-js'></script>
-    <script id='main-scripts-js-extra'>
-        var data = {
-            "pre_loader_typewriter": [],
-            "audio_source": "",
-            "enable_sound_bar": ""
-        };
-    </script>
-    <script src='./assets/themes/main/js/scripts6fb3.js?ver=6.1.3' id='main-scripts-js'></script>
-    <script src='./assets/plugins/wp-whatsapp-chat/build/frontend/js/indexfff7.js?ver=5cf11c421167aee95e6c' id='qlwapp-js'></script>
-    <script src='./assets/plugins/js_composer/assets/js/dist/js_composer_front.min91f3.js?ver=6.4.0' id='wpb_composer_front_js-js'></script>
+<?php
+require 'footer.php'
+?>
 </body>
 
 

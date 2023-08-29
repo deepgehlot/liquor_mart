@@ -112,9 +112,7 @@
     </style>
     <link rel='stylesheet' id='qlwapp-css' href='./assets/plugins/lm-whatsapp-chat/build/frontend/css/style311f.css?ver=6.2.7' media='all' />
     <link rel='stylesheet' id='qlwapp-css' href='./assets/plugins/wp-whatsapp-chat/build/frontend/css/style311f.css?ver=6.2.7' media='all' />
-
     <link rel='stylesheet' id='js_composer_front-css' href='./assets/plugins/js_composer/assets/css/js_composer.min91f3.css?ver=6.4.0' media='all' />
-
     <script src='assets/themes/main/js/comments6fb3.js?ver=6.1.3' id='comments-js'></script>
     <script src='includes/js/jquery/jquery.mina7a0.js?ver=3.6.1' id='jquery-core-js'></script>
     <script src='includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
@@ -130,8 +128,6 @@
     <meta name="generator" content="Powered by lmBakery Page Builder - drag and drop page builder for WordPress." />
     <link rel="icon" href="assets/uploads/2023/01/cropped-PHOTO-2022-01-06-22-45-01-32x32.jpg" sizes="32x32" />
     <link rel="icon" href="assets/uploads/2023/01/cropped-PHOTO-2022-01-06-22-45-01-192x192.jpg" sizes="192x192" />
-    <link rel="apple-touch-icon" href="assets/uploads/2023/01/cropped-PHOTO-2022-01-06-22-45-01-180x180.jpg" />
-    <meta name="msapplication-TileImage" content="https://theliquorstore.in/assets/uploads/2023/01/cropped-PHOTO-2022-01-06-22-45-01-270x270.jpg" />
     <style>
          :root {
             --qlwapp-scheme-font-family: inherit;
@@ -250,221 +246,9 @@
 </head>
 
 <body class="home page-template page-template-page-builder page-template-page-builder-php page page-id-301 no-transition lmb-js-composer js-comp-ver-6.4.0 vc_responsive">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="lm-duotone-dark-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0.49803921568627" />
-                    <feFuncG type="table" tableValues="0 0.49803921568627" />
-                    <feFuncB type="table" tableValues="0 0.49803921568627" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="lm-duotone-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="lm-duotone-purple-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="lm-duotone-blue-red">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG type="table" tableValues="0 0.27843137254902" />
-                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="lm-duotone-midnight">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0" />
-                    <feFuncG type="table" tableValues="0 0.64705882352941" />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="lm-duotone-magenta-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.78039215686275 1" />
-                    <feFuncG type="table" tableValues="0 0.94901960784314" />
-                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="lm-duotone-purple-green">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="lm-duotone-blue-orange">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.098039215686275 1" />
-                    <feFuncG type="table" tableValues="0 0.66274509803922" />
-                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <div class="search-box">
-        <div class="inner">
-            <form action="https://theliquormart.in/">
-                <input type="search" placeholder="Type here to search" value="" name="s" id="s">
-                <input type="submit" value="SEARCH">
-            </form>
-
-        </div>
-    </div>
-    <aside class="side-widget">
-        <div class="inner">
-            <div class="logo">
-                <a href="index.html"><img src="assets/uploads/2023/01/TLS-Logo-2-1.png" srcset="assets/uploads/2023/01/TLS-Logo-2-1.png" alt="The Liquor Mart"></a>
-            </div>
-
-            <div class="hide-mobile">
-
-                <div id="custom_html-1" class="widget_text widget widget_custom_html">
-                    <div class="textwidget custom-html-widget">
-                        <p class="text-justify">We have been in the industry for over 30 years, serving every type of customer there is in the market. Our strong ambition is to provide the customer what they want and fulfil their needs in alcohol when it comes to their choice
-                            of selections. Having a wide array of alcohol labels available in the market, the customer gets a reason to try something different just by looking at the label. </p>
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.718918569735!2d75.80018297618716!3d26.848891062828933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5eb22c319a7%3A0x9b20d9f00e3536c7!2sThe%20Liquor%20Mart%20JLN%20Marg!5e0!3m2!1sen!2sin!4v1691997523706!5m2!1sen!2sin"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <h6 class="widget-title">ADDRESS</h6>
-                        <address class="address">
-                            <p>Plot number 9A 9/1 SI Marg,<br>
-                                Jawahar Lal Nehru Marg, near WTP,<br>
-                                Lal Bahadur Nagar, Jaipur, Rajasthan 302017</p>
-                            <p>+91 89638 66666</p>
-                        </address>
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- end hide-mobile -->
-            <div class="show-mobile">
-                <div class="site-menu">
-                    <div class="menu-main-menu-container">
-                        <ul id="menu-main-menu-1" class="menu-horizontal">
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-301 current_page_item active menu-item-19 nav-item">
-                                <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286 nav-item">
-                                <a title="TLM Experience" href="./about-us.html" class="nav-link">TLM Experience</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item">
-                                <a title="Services" href="/services.html" class="nav-link">Services</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item">
-                                <a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a>
-                            </li>
-
-                            <!-- <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310 nav-item"><a title="Wine &amp; Whiskey Tasting" href="./tasting.html" class="nav-link">Wine &amp; Whiskey Tasting</a></li> -->
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315 nav-item">
-                                <a title="In The News" href="./news.html" class="nav-link">In The News</a>
-                            </li>
-                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163 nav-item">
-                                <a title="Contact Us" href="./contact.html" class="nav-link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- end show-mobile -->
-            <small>Copyright©️The Liquor Mart All rights reserved</small>
-        </div>
-        <!-- end inner -->
-    </aside>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html"><img src="assets/uploads/2023/01/TLS-Logo-2-1.png" srcset="assets/uploads/2023/01/TLS-Logo-2-1.png" alt="The Liquor Mart"></a>
-            </div>
-            <div class="site-menu">
-                <div class="menu-main-menu-container">
-                    <ul id="menu-main-menu-1" class="menu-horizontal">
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-301 current_page_item active menu-item-19 nav-item">
-                            <a title="Home" href="index.html" class="nav-link" aria-current="page">Home</a>
-                        </li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286 nav-item"><a title="TLS Experience" href="./about-us.html" class="nav-link">TLS Experience</a></li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Services" href="/services.html" class="nav-link">Services</a></li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-309 nav-item"><a title="Price List" href="https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx?enc=dHlwZT1BbGw=" target="_blank" class="nav-link">Govt. Auth. Price List</a></li>
-
-                        <!-- <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310 nav-item"><a title="Wine &amp; Whiskey Tasting" href="./tasting.html" class="nav-link">Wine &amp; Whiskey Tasting</a></li> -->
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315 nav-item"><a title="In The News" href="./news.html" class="nav-link">In The News</a></li>
-                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163 nav-item"><a title="Contact Us" href="./contact.html" class="nav-link">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="hamburger">
-                <div id="hamburger"> <span></span> <span></span> <span></span> </div>
-                <div id="cross"> <span></span> <span></span> </div>
-            </div>
-        </div>
-    </nav>
+    <?php
+    require 'navbar.php'
+    ?>
     <main>
         <section class="content-section no-spacing">
             <div class="vc_row lmb_row vc_row-fluid vc_custom_1593721916552">
@@ -526,8 +310,7 @@
                                                     <h1 data-swiper-parallax="200">
                                                         <h1>Indulge in Experience of TLM </h1>
                                                     </h1>
-                                                    <a href="https://talesotavern.com/"
-                                                        data-swiper-parallax="200"><span> Learn More</span></a>
+                                                    
                                                 </div>
                                                 <!-- end container -->
                                             </div>
@@ -864,166 +647,10 @@
 
     </main>
 
-    <footer class="footer" style="background-color: #0b0b0b">
-        <section data-stellar-background-ratio=1.1 class="content-section bg-image" style="background-color: #282C35;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 mb-3">
-                        <div class="logo">
-                            <a href="index.html"><img src="assets/uploads/2023/01/TLS-Logo-2-1.png" srcset="assets/uploads/2023/01/TLS-Logo-2-1.png" alt="The Liquor Mart"></a>
-                        </div>
-                        <div class="mt-4">
-                            <span><a href="https://instagram.com/the_liquormart?igshid=NTc4MTIwNjQ2YQ=="><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
-                                        viewBox="0 0 448 512">
-                                        <style>
-                                            svg {
-                                                fill: #ffffff
-                                            }
-                                        </style>
-                                        <path
-                                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-                                    </svg></a></span>
-                            <span><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
-                                        viewBox="0 0 512 512">
-                                        <style>
-                                            svg {
-                                                fill: #ffffff
-                                            }
-                                        </style>
-                                        <path
-                                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
-                                    </svg></a></span>
-                            <span><a href="mailto:theliquormart123@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
-                                        viewBox="0 0 512 512">
-                                        <style>
-                                            svg {
-                                                fill: #ffffff
-                                            }
-                                        </style>
-                                        <path
-                                            d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
-                                    </svg></a></span>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="logo ">
-                            <p style="color: white; font-weight: bold; font-size: 1.5rem;">Store 1: Jaipur</p>
-                            <p style="color: white;">Plot number 9A 9/1 SI Marg, Jawahar Lal Nehru Marg, near WTP, Lal Bahadur Nagar, Jaipur, Rajasthan 302017</p>
-                            <a href="tel:+9189638 66666">
-                                <p style="color: white;">089638 66666
-                                </p>
-                            </a>
-
-
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="logo ">
-                            <p style="color: white; font-weight: bold; font-size: 1.5rem;">Store 2: Jaipur</p>
-                            <p style="color: white;">116/216, Main, Shipra Path, Jhalana Chhod, Mansarovar, Jaipur, Rajasthan 302020</p>
-                            <a href="tel:+9189468 00001">
-                                <p style="color: white;">097721 65666
-                                </p>
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="logo ">
-                            <p style="color: white; font-weight: bold; font-size: 1.5rem;">Store 3: Jaipur</p>
-                            <p style="color: white;">WQ2R+VXQ The Liquor mart, 22 Godam Cir, Jyothi Nagar, Lalkothi, Jaipur, Rajasthan 302005</p>
-                            <a href="tel:+9189638 66666">
-                                <p style="color: white;">089638 66666
-                                </p>
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="logo ">
-                            <p style="color: white; font-weight: bold; font-size: 1.5rem;">Store 4: Udaipur</p>
-                            <p style="color: white;">Revealing Soon</p>
-                            <!-- <p style="color: white;">Phone NO</p> -->
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-bottom">
-                        <span>Copyright©️The Liquor Mart. All rights reserved</span>
-
-                    </div>
-                    <!-- end footer-bottom -->
-                </div>
-                <!-- end col-12 -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </footer>
-
-    <script type="text/html" id="wpb-modifications"></script>
-    <div id="qlwapp" class="qlwapp-free qlwapp-button qlwapp-bottom-right qlwapp-all qlwapp-rounded">
-        <div class="qlwapp-container">
-
-            <a class="qlwapp-toggle" data-action="open" data-phone="919610212345" data-message="Hello!! I would Like to Place an order Below are the Details" href="javascript:void(0);" target="_blank">
-                <i class="qlwapp-icon qlwapp-whatsapp-icon"></i>
-                <i class="qlwapp-close" data-action="close">&times;</i>
-                <span class="qlwapp-text">Get It Delivered !! Place Order</span>
-            </a>
-        </div>
-    </div>
-    <script src='assets/plugins/contact-form-7/includes/swv/js/index9f31.js?ver=5.7.2' id='swv-js'></script>
-    <script id='contact-form-7-js-extra'>
-        var lmcf7 = {
-            "api": {
-                "root": "https:\/\/theliquorstore.in\/json\/",
-                "namespace": "contact-form-7\/v1"
-            },
-            "cached": "1"
-        };
-    </script>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src='assets/plugins/contact-form-7/includes/js/index9f31.js?ver=5.7.2' id='contact-form-7-js'></script>
-    <script src='assets/themes/main/js/bootstrap.min6fb3.js?ver=6.1.3' id='bootstrap-js'></script>
-    <script src='assets/themes/main/js/fancybox.min6fb3.js?ver=6.1.3' id='fancybox-js'></script>
-    <script src='assets/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min91f3.js?ver=6.4.0' id='isotope-js'></script>
-    <script src='assets/themes/main/js/odometer.min6fb3.js?ver=6.1.3' id='odometer-js'></script>
-    <script src='includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
-    <script src='assets/themes/main/js/jquery.stellar6fb3.js?ver=6.1.3' id='stellar-js'></script>
-    <script src='assets/themes/main/js/datepicker.min6fb3.js?ver=6.1.3' id='datepicker-js'></script>
-    <script src='assets/themes/main/js/wow.min6fb3.js?ver=6.1.3' id='wow-js'></script>
-    <script src='assets/themes/main/js/swiper.min6fb3.js?ver=6.1.3' id='swiper-js'></script>
-    <!-- <script src="assets/themes/main/js/c_scrip t.js"></script> -->
-    <script src='assets/themes/main/js/scripts6fb3.js?ver=6.1.3' id='main-scripts-js'></script>
-    <script src='assets/plugins/lm-whatsapp-chat/build/frontend/js/indexfff7.js?ver=5cf11c421167aee95e6c' id='qlwapp-js'></script>
-    <script src='./assets/plugins/wp-whatsapp-chat/build/frontend/js/indexfff7.js?ver=5cf11c421167aee95e6c' id='qlwapp-js'></script>
-
-    <script src='assets/plugins/js_composer/assets/js/dist/js_composer_front.min91f3.js?ver=6.4.0' id='lmb_composer_front_js-js'></script>
-    <script>
-        const left_col = $('.li_text'),
-            right_col = $('.right_col')
-        left_col.click(function() {
-            const elem = $(this)
-            left_col.removeClass('activee')
-            right_col.hide()
-            elem.addClass('activee')
-            $(elem.data('id')).show()
-        })
-        let index = 0
-        setInterval(() => {
-            index++
-            if (index >= left_col.length) {
-                index = 0
-            }
-            $(left_col[index]).trigger('click')
-
-        }, 10000)
-    </script>
+    
+<?php
+require 'footer.php'
+?>
 </body>
 
 </html>
